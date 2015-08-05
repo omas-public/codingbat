@@ -117,6 +117,16 @@ def front_back(str):
  return str if length < 2 else str[length -1] +  str[1: -1] + str[0]
 ```
 
+#### 別解
+```
+def front_back(str):
+ tail = len(str) -1
+ if(tail < 1) : 
+   return str
+ lstr=list(str)
+ lstr[0],lstr[tail] = lstr[tail],lstr[0]
+ return "".join(lstr)
+```
 ### front3 
 strの先頭から3文字を3回繰り返して返す
 
@@ -124,5 +134,3 @@ strの先頭から3文字を3回繰り返して返す
 def front3(str):
   return str[0:3] * 3
 ```
-
-
