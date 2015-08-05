@@ -118,8 +118,11 @@ def front_back(str):
 ```
 
 ### front3 
+strの先頭から3文字を3回繰り返して返す
 
 ```
+def front3(str):
+  return str[0:3] * 3
 ```
 
 
