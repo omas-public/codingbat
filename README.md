@@ -164,20 +164,27 @@ def string_bits(str):
 文字列を1文字,1文字から2文字,1文字から3文字...1文字から最後を結合して返す
 ```
 def string_splosion(str):
-  return "".join(map(lambda x:str[0:x + 1],range(0,len(str))))
+  return "".join([str[:x + 1] for x in range(len(str))])
+```
+#### 別解
+```
+def string_splosion(str):
+  return "".join(map(lambda x:str[:x + 1],range(len(str))))
 ```
 
 ### last2
-
-解答募集中
-
+最後の2文字と一致する2文字の回数を返す
+```
+def last2(str):
+  nchar = 2
+  return [str[x:x + nchar] for x in range(len(str) -nchar)].count(str[-nchar:])
+```
 ### array_count9
 リストにいくつ9が含まれているかを返す
 ```
 def array_count9(nums):
   return nums.count(9)
 ```
-
 ### array_front9
 リストの先頭から4番目までに9が含まれるかを判定し真偽値を返す
 ```
@@ -191,3 +198,6 @@ def array_front9(nums):
 def array123(nums):
   return 1 and 2 and 3 in nums
 ```
+
+### string_match 
+
