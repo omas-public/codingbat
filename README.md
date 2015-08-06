@@ -134,3 +134,59 @@ strの先頭から3文字を3回繰り返して返す
 def front3(str):
   return str[0:3] * 3
 ```
+
+## Warmup-2
+
+### string_times
+
+文字列を複数回繰り返す
+
+```
+def string_times(str, n):
+ return str*n
+```
+### front_times
+3文字目までをn回繰り返す
+```
+def front_times(str, n):
+  return str[0:3]*n
+```
+
+### string_bits
+奇数番目の文字列だけ返す
+```
+def string_bits(str):
+  return "".join(list(str)[0::2])
+```
+
+### string_splosion
+文字列を1文字,1文字から2文字,1文字から3文字...1文字から最後を結合して返す
+```
+def string_splosion(str):
+  return "".join(map(lambda x:str[0:x + 1],range(0,len(str))))
+```
+
+### last2
+
+解答募集中
+
+### array_count9
+リストにいくつ9が含まれているかを返す
+```
+def array_count9(nums):
+  return nums.count(9)
+```
+
+### array_front9
+リストの先頭から4番目までに9が含まれるかを判定し真偽値を返す
+```
+def array_front9(nums):
+  return 9 in nums[0:4]
+```
+
+### array123
+リストの中に1,2,3がすべて含まれているかを真偽値で返す
+```
+def array123(nums):
+  return 1 in nums and 2 in nums and 3 in nums
+```
