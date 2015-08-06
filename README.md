@@ -35,7 +35,8 @@ aとbの値が等しい時はaとbの合計の2倍を返し
 
 ```
 def sum_double(a, b):
-  return (a + b) * 2 if a == b else a + b
+  sum = a + b
+  return sum * 2 if a == b else sum
 ```
 
 ### diff21 
@@ -63,7 +64,7 @@ aとbの合計が10,もしくはaが10もしくはbが10の時
 ```
 def makes10(a, b):
   sum = a + b;
-  return sum == 10 or a == 10 or b == 10
+  return 10 in [sum ,a ,b]
 ```
 
 ### near_hundred 
@@ -114,7 +115,7 @@ strの最初の文字と最後の文字を入れ替える
 ```
 def front_back(str):
  length = len(str)
- return str if length < 2 else str[length -1] +  str[1: -1] + str[0]
+ return str if length <= 1 else str[length -1] +  str[1: -1] + str[0]
 ```
 
 #### 別解
@@ -132,7 +133,7 @@ strの先頭から3文字を3回繰り返して返す
 
 ```
 def front3(str):
-  return str[0:3] * 3
+  return str[:3] * 3
 ```
 
 ## Warmup-2
@@ -143,20 +144,20 @@ def front3(str):
 
 ```
 def string_times(str, n):
- return str*n
+ return str * n
 ```
 ### front_times
 3文字目までをn回繰り返す
 ```
 def front_times(str, n):
-  return str[0:3]*n
+  return str[:3] * n
 ```
 
 ### string_bits
 奇数番目の文字列だけ返す
 ```
 def string_bits(str):
-  return "".join(list(str)[0::2])
+  return str[::2]
 ```
 
 ### string_splosion
@@ -181,12 +182,12 @@ def array_count9(nums):
 リストの先頭から4番目までに9が含まれるかを判定し真偽値を返す
 ```
 def array_front9(nums):
-  return 9 in nums[0:4]
+  return 9 in nums[:4]
 ```
 
 ### array123
 リストの中に1,2,3がすべて含まれているかを真偽値で返す
 ```
 def array123(nums):
-  return 1 in nums and 2 in nums and 3 in nums
+  return 1 and 2 and 3 in nums
 ```
