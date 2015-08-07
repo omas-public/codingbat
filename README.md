@@ -55,7 +55,8 @@ trueを返しそれ以外はfalseを返す関数｡
 
 ```
 def parrot_trouble(talking, hour):
-  return (talking and (hour < 7 or hour > 20))
+  daytime = (hour >= 7 and hour <= 20)
+  return talking and not daytime
 ```
 ### makes10
 aとbの合計が10,もしくはaが10もしくはbが10の時
@@ -73,8 +74,8 @@ trueを返しそれ以外はfalseを返す関数
 
 ```
 def near_hundred(n):
-  near100 = abs(100 - n) < 10 + 1
-  near200 = abs(200 - n) < 10 + 1
+  near100 = abs(100 - n) <= 10
+  near200 = abs(200 - n) <= 10
   return (near100 or near200)
 ```
 
@@ -176,8 +177,8 @@ def string_splosion(str):
 最後の2文字と一致する2文字の回数を返す
 ```
 def last2(str):
-  nchar = 2
-  return [str[x:x + nchar] for x in range(len(str) -nchar)].count(str[-nchar:])
+  lenc = 2
+  return [str[x:x + lenc] for x in range(len(str) -lenc)].count(str[-lenc:])
 ```
 ### array_count9
 リストにいくつ9が含まれているかを返す
@@ -201,3 +202,13 @@ def array123(nums):
 
 ### string_match 
 
+```
+def string_match(a, b):
+  count = 0
+  for (a,b) in zip(
+    [a[x:x + 2] for x in range(len(a) - 1)]
+    ,[b[x:x + 2] for x in range(len(b) - 1)]):
+    if a == b :
+      count = count + 1
+  return count
+```
