@@ -204,6 +204,14 @@ def array123(nums):
 
 ```
 def string_match(a, b):
+  return len([x for x,y in zip(
+    [a[x:x + 2] for x in range(len(a) - 1)]
+    ,[b[x:x + 2] for x in range(len(b) - 1)])
+  if x == y])
+```
+別解
+```
+def string_match(a, b):
   return [(x == y) for x,y in zip(
     [a[x:x + 2] for x in range(len(a) - 1)]
     ,[b[x:x + 2] for x in range(len(b) - 1)]
