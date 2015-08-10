@@ -204,11 +204,8 @@ def array123(nums):
 
 ```
 def string_match(a, b):
-  count = 0
-  for (a,b) in zip(
+  return [(x == y) for x,y in zip(
     [a[x:x + 2] for x in range(len(a) - 1)]
-    ,[b[x:x + 2] for x in range(len(b) - 1)]):
-    if a == b :
-      count = count + 1
-  return count
+    ,[b[x:x + 2] for x in range(len(b) - 1)]
+  )].count(True)
 ```
