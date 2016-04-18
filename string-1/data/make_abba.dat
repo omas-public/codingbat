@@ -1,0 +1,10 @@
+make_abba
+make_abba('Hi', 'Bye') → 'HiByeByeHi'
+make_abba('Yo', 'Alice') → 'YoAliceAliceYo'
+make_abba('What', 'Up') → 'WhatUpUpWhat'
+make_abba('aaa', 'bbb') → 'aaabbbbbbaaa'
+make_abba('x', 'y') → 'xyyx'
+make_abba('x', '') → 'xx'
+make_abba('', 'y') → 'yy'
+make_abba('Bo', 'Ya') → 'BoYaYaBo'
+make_abba('Ya', 'Ya') → 'YaYaYaYa'

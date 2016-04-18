@@ -1,0 +1,15 @@
+xyz_there
+xyz_there('abcxyz') → True
+xyz_there('abc.xyz') → False
+xyz_there('xyz.abc') → True
+xyz_there('abcxy') → False
+xyz_there('xyz') → True
+xyz_there('xy') → False
+xyz_there('x') → False
+xyz_there('') → False
+xyz_there('abc.xyzxyz') → True
+xyz_there('abc.xxyz') → True
+xyz_there('.xyz') → False
+xyz_there('12.xyz') → False
+xyz_there('12xyz') → True
+xyz_there('1.xyz.xyz2.xyz') → False

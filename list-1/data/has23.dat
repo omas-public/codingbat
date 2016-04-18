@@ -1,0 +1,10 @@
+has23
+has23([2, 5]) → True
+has23([4, 3]) → True
+has23([4, 5]) → False
+has23([2, 2]) → True
+has23([3, 2]) → True
+has23([3, 3]) → True
+has23([7, 7]) → False
+has23([3, 9]) → True
+has23([9, 5]) → False

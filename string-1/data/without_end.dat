@@ -1,0 +1,9 @@
+without_end
+without_end('Hello') → 'ell'
+without_end('java') → 'av'
+without_end('coding') → 'odin'
+without_end('code') → 'od'
+without_end('ab') → ''
+without_end('Chocolate!') → 'hocolate'
+without_end('kitten') → 'itte'
+without_end('woohoo') → 'ooho'

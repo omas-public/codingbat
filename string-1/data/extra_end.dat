@@ -1,0 +1,6 @@
+extra_end
+extra_end('Hello') → 'lololo'
+extra_end('ab') → 'ababab'
+extra_end('Hi') → 'HiHiHi'
+extra_end('Candy') → 'dydydy'
+extra_end('Code') → 'dedede'

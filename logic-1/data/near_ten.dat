@@ -1,0 +1,16 @@
+near_ten
+near_ten(12) → True
+near_ten(17) → False
+near_ten(19) → True
+near_ten(31) → True
+near_ten(6) → False
+near_ten(10) → True
+near_ten(11) → True
+near_ten(21) → True
+near_ten(22) → True
+near_ten(23) → False
+near_ten(54) → False
+near_ten(155) → False
+near_ten(158) → True
+near_ten(3) → False
+near_ten(1) → True

@@ -1,0 +1,12 @@
+cigar_party
+cigar_party(30, False) → False
+cigar_party(50, False) → True
+cigar_party(70, True) → True
+cigar_party(30, True) → False
+cigar_party(50, True) → True
+cigar_party(60, False) → True
+cigar_party(61, False) → False
+cigar_party(40, False) → True
+cigar_party(39, False) → False
+cigar_party(40, True) → True
+cigar_party(39, True) → False

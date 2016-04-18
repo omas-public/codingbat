@@ -1,0 +1,6 @@
+make_out_word
+make_out_word('<<>>', 'Yay') → '<<Yay>>'
+make_out_word('<<>>', 'WooHoo') → '<<WooHoo>>'
+make_out_word('[[]]', 'word') → '[[word]]'
+make_out_word('HHoo', 'Hello') → 'HHHellooo'
+make_out_word('abyz', 'YAY') → 'abYAYyz'

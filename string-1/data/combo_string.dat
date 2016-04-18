@@ -1,0 +1,12 @@
+combo_string
+combo_string('Hello', 'hi') → 'hiHellohi'
+combo_string('hi', 'Hello') → 'hiHellohi'
+combo_string('aaa', 'b') → 'baaab'
+combo_string('b', 'aaa') → 'baaab'
+combo_string('aaa', '') → 'aaa'
+combo_string('', 'bb') → 'bb'
+combo_string('aaa', '1234') → 'aaa1234aaa'
+combo_string('aaa', 'bb') → 'bbaaabb'
+combo_string('a', 'bb') → 'abba'
+combo_string('bb', 'a') → 'abba'
+combo_string('xyz', 'ab') → 'abxyzab'

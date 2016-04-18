@@ -1,0 +1,10 @@
+double_char
+double_char('The') → 'TThhee'
+double_char('AAbb') → 'AAAAbbbb'
+double_char('Hi-There') → 'HHii--TThheerree'
+double_char('Word!') → 'WWoorrdd!!'
+double_char('!!') → '!!!!'
+double_char('') → ''
+double_char('a') → 'aa'
+double_char('.') → '..'
+double_char('aa') → 'aaaa'

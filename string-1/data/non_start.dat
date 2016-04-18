@@ -1,0 +1,10 @@
+non_start
+non_start('Hello', 'There') → 'ellohere'
+non_start('java', 'code') → 'avaode'
+non_start('shotl', 'java') → 'hotlava'
+non_start('ab', 'xy') → 'by'
+non_start('ab', 'x') → 'b'
+non_start('x', 'ac') → 'c'
+non_start('a', 'x') → ''
+non_start('kit', 'kat') → 'itat'
+non_start('mart', 'dart') → 'artart'

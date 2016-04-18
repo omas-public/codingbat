@@ -1,0 +1,15 @@
+end_other
+end_other('Hiabc', 'abc') → True
+end_other('AbC', 'HiaBc') → True
+end_other('abc', 'abXabc') → True
+end_other('Hiabc', 'abcd') → False
+end_other('Hiabc', 'bc') → True
+end_other('Hiabcx', 'bc') → False
+end_other('abc', 'abc') → True
+end_other('xyz', '12xyz') → True
+end_other('yz', '12xz') → False
+end_other('Z', '12xz') → True
+end_other('12', '12') → True
+end_other('abcXYZ', 'abcDEF') → False
+end_other('ab', 'ab12') → False
+end_other('ab', '12ab') → True

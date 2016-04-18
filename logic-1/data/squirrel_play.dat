@@ -1,0 +1,14 @@
+squirrel_play
+squirrel_play(70, False) → True
+squirrel_play(95, False) → False
+squirrel_play(95, True) → True
+squirrel_play(90, False) → True
+squirrel_play(90, True) → True
+squirrel_play(50, False) → False
+squirrel_play(50, True) → False
+squirrel_play(100, False) → False
+squirrel_play(100, True) → True
+squirrel_play(105, True) → False
+squirrel_play(59, False) → False
+squirrel_play(59, True) → False
+squirrel_play(60, False) → True

@@ -1,0 +1,13 @@
+date_fashion
+date_fashion(5, 10) → 2
+date_fashion(5, 2) → 0
+date_fashion(5, 5) → 1
+date_fashion(3, 3) → 1
+date_fashion(10, 2) → 0
+date_fashion(2, 9) → 0
+date_fashion(9, 9) → 2
+date_fashion(10, 5) → 2
+date_fashion(2, 2) → 0
+date_fashion(3, 7) → 1
+date_fashion(2, 7) → 0
+date_fashion(6, 2) → 0
