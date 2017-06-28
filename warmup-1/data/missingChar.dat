@@ -1,0 +1,11 @@
+missingChar(str, n)
+missingChar("kitten", 1) → "ktten"
+missingChar("kitten", 0) → "itten"
+missingChar("kitten", 4) → "kittn"
+missingChar("Hi", 0) → "i"
+missingChar("Hi", 1) → "H"
+missingChar("code", 0) → "ode"
+missingChar("code", 1) → "cde"
+missingChar("code", 2) → "coe"
+missingChar("code", 3) → "cod"
+missingChar("chocolate", 8) → "chocolat"

@@ -1,0 +1,7 @@
+icyHot(temp1, temp2)
+icyHot(120, -1) → true
+icyHot(-1, 120) → true
+icyHot(2, 120) → false
+icyHot(-1, 100) → false
+icyHot(-2, -2) → false
+icyHot(120, 120) → false

@@ -1,0 +1,11 @@
+stringBits(str)
+stringBits("Hello") → "Hlo"
+stringBits("Hi") → "H"
+stringBits("Heeololeo") → "Hello"
+stringBits("HiHiHi") → "HHH"
+stringBits("") → ""
+stringBits("Greetings") → "Getns"
+stringBits("Chocoate") → "Coot"
+stringBits("pi") → "p"
+stringBits("Hello Kitten") → "HloKte"
+stringBits("hxaxpxpxy") → "happy"

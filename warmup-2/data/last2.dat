@@ -1,0 +1,14 @@
+last2(str)
+last2("hixxhi") → 1
+last2("xaxxaxaxx") → 1
+last2("axxxaaxx") → 2
+last2("xxaxxaxxaxx") → 3
+last2("xaxaxaxx") → 0
+last2("xxxx") → 2
+last2("13121312") → 1
+last2("11212") → 1
+last2("13121311") → 0
+last2("1717171") → 2
+last2("hi") → 0
+last2("h") → 0
+last2("") → 0

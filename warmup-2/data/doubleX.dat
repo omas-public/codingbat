@@ -1,0 +1,12 @@
+doubleX(str)
+doubleX("axxbb") → true
+doubleX("axaxax") → false
+doubleX("xxxxx") → true
+doubleX("xaxxx") → false
+doubleX("aaaax") → false
+doubleX("") → false
+doubleX("abc") → false
+doubleX("x") → false
+doubleX("xx") → true
+doubleX("xax") → false
+doubleX("xaxx") → false

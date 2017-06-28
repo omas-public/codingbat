@@ -1,0 +1,7 @@
+backAround(str)
+backAround("cat") → "tcatt"
+backAround("Hello") → "oHelloo"
+backAround("a") → "aaa"
+backAround("abc") → "cabcc"
+backAround("read") → "dreadd"
+backAround("boo") → "obooo"

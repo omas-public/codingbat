@@ -1,0 +1,7 @@
+stringE(str)
+stringE("Hello") → true
+stringE("Heelle") → true
+stringE("Heelele") → false
+stringE("Hll") → false
+stringE("e") → true
+stringE("") → false

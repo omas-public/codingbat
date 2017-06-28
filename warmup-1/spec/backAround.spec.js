@@ -1,22 +1,33 @@
-var test = require('../src/backAround.js');
+const test = require('../src/backAround.js');
+describe('backAround', () => {
 
-describe('backAround', function() {
-    it('backAround("cat") → "tcatt"', function() {
-        expect(test.backAround('cat')).toBe('tcatt');
-    });
-    it('backAround("Hello") → "oHelloo"', function() {
-        expect(test.backAround('Hello')).toBe('oHelloo');
-    });
-    it('backAround("a") → "aaa" ', function() {
-        expect(test.backAround('a')).toBe('aaa');
-    });
-    it('backAround("abc") → "cabcc"', function() {
-        expect(test.backAround('abc')).toBe('cabcc');
-    });
-    it('backAround("read") → "dreadd"', function() {
-        expect(test.backAround('read')).toBe('dreadd');
-    });
-    it('backAround("boo") → "obooo"', function() {
-        expect(test.backAround('boo')).toBe('obooo');
-    });
+      it('backAround("cat") → "tcatt")', () => {
+        expect(test.backAround("cat")).toBe("tcatt");
+      });
+    
+
+      it('backAround("Hello") → "oHelloo")', () => {
+        expect(test.backAround("Hello")).toBe("oHelloo");
+      });
+    
+
+      it('backAround("a") → "aaa")', () => {
+        expect(test.backAround("a")).toBe("aaa");
+      });
+    
+
+      it('backAround("abc") → "cabcc")', () => {
+        expect(test.backAround("abc")).toBe("cabcc");
+      });
+    
+
+      it('backAround("read") → "dreadd")', () => {
+        expect(test.backAround("read")).toBe("dreadd");
+      });
+    
+
+      it('backAround("boo") → "obooo")', () => {
+        expect(test.backAround("boo")).toBe("obooo");
+      });
+    
 });

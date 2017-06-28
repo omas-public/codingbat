@@ -1,6 +1,6 @@
 common_end
-common_end([1, 2, 3], [7, 3]) → True
-common_end([1, 2, 3], [7, 3, 2]) → False
-common_end([1, 2, 3], [1, 3]) → True
-common_end([1, 2, 3], [1]) → True
-common_end([1, 2, 3], [2]) → False
+common_end([1, 2, 3], [7, 3]) → true
+common_end([1, 2, 3], [7, 3, 2]) → false
+common_end([1, 2, 3], [1, 3]) → true
+common_end([1, 2, 3], [1]) → true
+common_end([1, 2, 3], [2]) → false

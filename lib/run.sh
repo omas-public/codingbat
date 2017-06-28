@@ -1,9 +1,11 @@
 #!/bin/bash
 
-files=$(ls ./data/*)
+dir=$1
+files=$(ls $dir/data/*)
 
-for lfile in $files
+for file in $files
 do
-  sfile=$(basename $lfile '.dat')
-  node ../lib/convert.js < $lfile > "./spec/$sfile.spec.js"
+  name=$(basename $file '.dat')
+  node makeSrc.js <  $file > "$dir/src/$name.js"
+  node makeSpec.js < $file >> "$dir/spec/$name.spec.js"
 done

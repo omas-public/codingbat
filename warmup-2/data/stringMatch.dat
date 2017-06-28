@@ -1,0 +1,11 @@
+stringMatch(a, b)
+stringMatch("xxcaazz", "xxbaaz") → 3
+stringMatch("abc", "abc") → 2
+stringMatch("abc", "axc") → 0
+stringMatch("hello", "he") → 1
+stringMatch("he", "hello") → 1
+stringMatch("h", "hello") → 0
+stringMatch("", "hello") → 0
+stringMatch("aabbccdd", "abbbxxd") → 1
+stringMatch("aaxxaaxx", "iaxxai") → 3
+stringMatch("iaxxai", "aaxxaaxx") → 3

@@ -229,8 +229,7 @@ def count_code(str):
 ```
 def end_other(a, b):
   a = a.lower()
-  b = b.lower()
-  return (b.endswith(a) or a.endswith(b))
+  b = b.lower()  return (b.endswith(a) or a.endswith(b))
 ```
 ### 21.xyz_there
 ```

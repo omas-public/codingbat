@@ -1,0 +1,5 @@
+
+exports.altPairs = (str) => {
+  //
+};
+

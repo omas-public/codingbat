@@ -1,0 +1,9 @@
+altPairs(str)
+altPairs("kitten") → "kien"
+altPairs("Chocolate") → "Chole"
+altPairs("CodingHorror") → "Congrr"
+altPairs("yak") → "ya"
+altPairs("ya") → "ya"
+altPairs("y") → "y"
+altPairs("") → ""
+altPairs("ThisThatTheOther") → "ThThThth"

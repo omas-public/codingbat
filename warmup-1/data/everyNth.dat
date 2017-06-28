@@ -1,0 +1,8 @@
+everyNth(str, n)
+everyNth("Miracle", 2) → "Mrce"
+everyNth("abcdefg", 2) → "aceg"
+everyNth("abcdefg", 3) → "adg"
+everyNth("Chocolate", 3) → "Cca"
+everyNth("Chocolates", 3) → "Ccas"
+everyNth("Chocolates", 4) → "Coe"
+everyNth("Chocolates", 100) → "C"

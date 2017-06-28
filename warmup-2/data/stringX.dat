@@ -1,0 +1,9 @@
+stringX(str)
+stringX("xxHxix") → "xHix"
+stringX("abxxxcd") → "abcd"
+stringX("xabxxxcdx") → "xabcdx"
+stringX("xKittenx") → "xKittenx"
+stringX("Hello") → "Hello"
+stringX("xx") → "xx"
+stringX("x") → "x"
+stringX("") → ""

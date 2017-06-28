@@ -1,0 +1,5 @@
+sleepIn(weekday, vacation)
+sleepIn(false, false) → true
+sleepIn(true, false) → false
+sleepIn(false, true) → true
+sleepIn(true, true) → true
