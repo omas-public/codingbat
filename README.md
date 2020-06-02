@@ -8,7 +8,7 @@
 
 ## Basic Problem
 
-- [Warmup-1](./docs/warmup1.md)git 
+- [Warmup-1](./docs/warmup1.md)
 - [Warmup-2](./docs/warmup2.md)
 - [Logic-1](./docs/logic1.md) 
 - [String-1](./docs/string1.md)
