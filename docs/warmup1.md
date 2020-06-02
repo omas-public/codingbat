@@ -1,4 +1,4 @@
-# [warmup-1](https://codingbat.com/python)
+# [warmup-1](https://codingbat.com/python/Warmup-1)
 
 ## Logic (ブール演算，算術演算 if statement)
 
