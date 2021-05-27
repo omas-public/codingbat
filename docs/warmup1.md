@@ -41,7 +41,7 @@
 
 > We have a loud talking parrot. The "hour" parameter is the current hour time in the range 0..23. We are in trouble if the parrot is talking and the hour is before 7 or after 20. Return True if we are in trouble.
 
-引数 talking が True かつ 引数 hour が 7未満 または 20以上 の時 True を返し それ以外のときは False を返す関数 parrot_trouble を作成せよ
+引数 talking が True かつ 引数 hour が 7未満 または 20より大きい時 True を返し それ以外のときは False を返す関数 parrot_trouble を作成せよ
 
 - if文を用いて作成せよ
 - ブール演算で作成せよ(if文を使わない)
