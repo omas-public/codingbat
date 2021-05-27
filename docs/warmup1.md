@@ -32,6 +32,8 @@
 
 > Given an int n, return the absolute difference between n and 21, except return double the absolute difference if n is over 21.
 
+整数 n が与えられる，n と 21 の差を絶対値で返せ，ただし n が 21より大きい場合は 絶対値をを2倍にして返せ
+
 - if文を用いて作成せよ
 - (abs関数を用いて作成せよ)[https://www.google.com/search?q=python3+abs&oq=python3+abs&aqs=chrome..69i57j0l7.11013j0j9&sourceid=chrome&ie=UTF-8]
 
