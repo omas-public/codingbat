@@ -48,7 +48,7 @@
 
 > Given 2 ints, a and b, return True if one if them is 10 or if their sum is 10.
 
-intの引数(a, b)の一方が正の数(Positive)，もう片方の数が負の数(Negative)のときに True を返す関数 pos_neg を作成せよ。 但し 引数 negative が True のときは a,b がともに 負の数(Negative)のときだけ True を返せ
+2つの整数 a, bが与えられる。 どちらかが10と等しいとき または 合計が10の時は True を返せ
 
 - if文を用いて作成せよ
 
